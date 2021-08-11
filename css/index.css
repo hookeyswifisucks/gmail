@@ -33,7 +33,7 @@ html, body {
   height: 13vh;
   border-radius: 50%;
   top: 115vh;
-  animation: float-up 11s 3s ease-in infinite, sway2 8s 0s ease-in-out alternate infinite;
+  animation: float-up 15s 10s ease-in infinite, sway1 10s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(1) {
@@ -41,11 +41,11 @@ html, body {
   position: absolute;
   left: calc(1 * 10vw);
   display: block;
-  width: 12vh;
-  height: 12vh;
+  width: 5vh;
+  height: 5vh;
   border-radius: 50%;
   top: 115vh;
-  animation: float-up 13s 9s ease-in infinite, sway1 8s 0s ease-in-out alternate infinite;
+  animation: float-up 14s 6s ease-in infinite, sway1 8s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(2) {
@@ -57,7 +57,7 @@ html, body {
   height: 10vh;
   border-radius: 50%;
   top: 115vh;
-  animation: float-up 9s 2s ease-in infinite, sway1 9s 0s ease-in-out alternate infinite;
+  animation: float-up 9s 3s ease-in infinite, sway2 7s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(3) {
@@ -65,11 +65,11 @@ html, body {
   position: absolute;
   left: calc(3 * 10vw);
   display: block;
-  width: 8vh;
-  height: 8vh;
+  width: 9vh;
+  height: 9vh;
   border-radius: 50%;
   top: 115vh;
-  animation: float-up 14s 4s ease-in infinite, sway2 8s 0s ease-in-out alternate infinite;
+  animation: float-up 8s 7s ease-in infinite, sway1 10s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(4) {
@@ -77,11 +77,11 @@ html, body {
   position: absolute;
   left: calc(4 * 10vw);
   display: block;
-  width: 10vh;
-  height: 10vh;
+  width: 6vh;
+  height: 6vh;
   border-radius: 50%;
   top: 115vh;
-  animation: float-up 14s 0s ease-in infinite, sway1 10s 0s ease-in-out alternate infinite;
+  animation: float-up 15s 5s ease-in infinite, sway1 8s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(5) {
@@ -89,11 +89,11 @@ html, body {
   position: absolute;
   left: calc(5 * 10vw);
   display: block;
-  width: 10vh;
-  height: 10vh;
+  width: 14vh;
+  height: 14vh;
   border-radius: 50%;
   top: 115vh;
-  animation: float-up 15s 1s ease-in infinite, sway1 7s 0s ease-in-out alternate infinite;
+  animation: float-up 12s 4s ease-in infinite, sway2 10s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(6) {
@@ -101,11 +101,11 @@ html, body {
   position: absolute;
   left: calc(6 * 10vw);
   display: block;
-  width: 11vh;
-  height: 11vh;
+  width: 14vh;
+  height: 14vh;
   border-radius: 50%;
   top: 115vh;
-  animation: float-up 9s 5s ease-in infinite, sway1 9s 0s ease-in-out alternate infinite;
+  animation: float-up 15s 8s ease-in infinite, sway2 8s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(7) {
@@ -113,11 +113,11 @@ html, body {
   position: absolute;
   left: calc(7 * 10vw);
   display: block;
-  width: 11vh;
-  height: 11vh;
+  width: 12vh;
+  height: 12vh;
   border-radius: 50%;
   top: 115vh;
-  animation: float-up 10s 10s ease-in infinite, sway1 9s 0s ease-in-out alternate infinite;
+  animation: float-up 12s 0s ease-in infinite, sway2 6s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(8) {
@@ -125,11 +125,11 @@ html, body {
   position: absolute;
   left: calc(8 * 10vw);
   display: block;
-  width: 11vh;
-  height: 11vh;
+  width: 13vh;
+  height: 13vh;
   border-radius: 50%;
   top: 115vh;
-  animation: float-up 11s 3s ease-in infinite, sway2 6s 0s ease-in-out alternate infinite;
+  animation: float-up 15s 3s ease-in infinite, sway2 6s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(9) {
@@ -137,11 +137,11 @@ html, body {
   position: absolute;
   left: calc(9 * 10vw);
   display: block;
-  width: 5vh;
-  height: 5vh;
+  width: 7vh;
+  height: 7vh;
   border-radius: 50%;
   top: 115vh;
-  animation: float-up 14s 0s ease-in infinite, sway2 7s 0s ease-in-out alternate infinite;
+  animation: float-up 13s 4s ease-in infinite, sway1 7s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(10) {
@@ -149,11 +149,11 @@ html, body {
   position: absolute;
   left: calc(10 * 10vw);
   display: block;
-  width: 6vh;
-  height: 6vh;
+  width: 12vh;
+  height: 12vh;
   border-radius: 50%;
   top: 115vh;
-  animation: float-up 12s 10s ease-in infinite, sway1 7s 0s ease-in-out alternate infinite;
+  animation: float-up 9s 8s ease-in infinite, sway2 7s 0s ease-in-out alternate infinite;
 }
 
 @keyframes float-up {
@@ -309,34 +309,33 @@ html, body {
   margin: auto;
   margin-top: 50px;
 }
-.content .landing .scroll-indicator .circle {
-  width: 15px;
-  height: 15px;
+.content .landing .scroll-indicator .triangle {
   margin-bottom: 10px;
-  background-color: #d8d8d8;
-  border-radius: 50%;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid #d8d8d8;
 }
 @keyframes blink {
   0% {
-    background-color: #d8d8d8;
+    border-top-color: #d8d8d8;
   }
   50% {
-    background-color: #8234af;
+    border-top-color: #8234af;
   }
   100% {
-    background-color: #d8d8d8;
+    border-top-color: #d8d8d8;
   }
 }
-.content .landing .scroll-indicator .circle:nth-child(0) {
+.content .landing .scroll-indicator .triangle:nth-child(0) {
   animation: blink 1s calc((0 - 1) * 250ms) infinite;
 }
-.content .landing .scroll-indicator .circle:nth-child(1) {
+.content .landing .scroll-indicator .triangle:nth-child(1) {
   animation: blink 1s calc((1 - 1) * 250ms) infinite;
 }
-.content .landing .scroll-indicator .circle:nth-child(2) {
+.content .landing .scroll-indicator .triangle:nth-child(2) {
   animation: blink 1s calc((2 - 1) * 250ms) infinite;
 }
-.content .landing .scroll-indicator .circle:nth-child(3) {
+.content .landing .scroll-indicator .triangle:nth-child(3) {
   animation: blink 1s calc((3 - 1) * 250ms) infinite;
 }
 .content .images {

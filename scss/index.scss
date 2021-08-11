@@ -215,27 +215,26 @@ $sway-type: sway1, sway2;
             margin: auto;
             margin-top: 50px;
 
-            .circle {
-                width: 15px;
-                height: 15px;
+            .triangle {
                 margin-bottom: 10px;
-                background-color: rgb(216, 216, 216);
-                border-radius: 50%;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 20px solid rgb(216, 216, 216);
             }
             @keyframes blink {
                 0% {
-                    background-color: rgb(216, 216, 216);
+                    border-top-color: rgb(216, 216, 216);
                 }
                 50% {
-                    background-color: $purple;
+                    border-top-color: $purple;
                 }
                 100% {
-                    background-color: rgb(216, 216, 216);
+                    border-top-color: rgb(216, 216, 216);
                 }
             }
             @for $i from 0 through 3 {
                 $width: #{random_range(5vw, 15vw)};
-                .circle:nth-child(#{$i}) {
+                .triangle:nth-child(#{$i}) {
                     animation: blink 1s calc((#{$i} - 1) * 250ms) infinite;
                 }
             }
