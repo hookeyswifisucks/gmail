@@ -27,261 +27,141 @@ html, body {
 .bubble:nth-child(0) {
   background: #9f45d341;
   position: absolute;
-  left: 55vw;
-  bottom: -15vw;
+  left: calc(0 * 10vw);
   display: block;
-  width: 15vw;
-  height: 15vw;
+  width: 5vh;
+  height: 5vh;
   border-radius: 50%;
-  animation: float-up 8s 7s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
+  top: 115vh;
+  animation: float-up 11s 7s ease-in infinite, sway2 9s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(1) {
   background: #9f45d341;
   position: absolute;
-  left: 52vw;
-  bottom: -15vw;
+  left: calc(1 * 10vw);
   display: block;
-  width: 12vw;
-  height: 12vw;
+  width: 11vh;
+  height: 11vh;
   border-radius: 50%;
-  animation: float-up 9s 10s ease-in infinite, sway2 3s 0s ease-in-out alternate infinite;
+  top: 115vh;
+  animation: float-up 15s 6s ease-in infinite, sway2 9s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(2) {
   background: #9f45d341;
   position: absolute;
-  left: 40vw;
-  bottom: -15vw;
+  left: calc(2 * 10vw);
   display: block;
-  width: 14vw;
-  height: 14vw;
+  width: 12vh;
+  height: 12vh;
   border-radius: 50%;
-  animation: float-up 10s 0s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
+  top: 115vh;
+  animation: float-up 15s 7s ease-in infinite, sway2 9s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(3) {
   background: #9f45d341;
   position: absolute;
-  left: 99vw;
-  bottom: -15vw;
+  left: calc(3 * 10vw);
   display: block;
-  width: 14vw;
-  height: 14vw;
+  width: 8vh;
+  height: 8vh;
   border-radius: 50%;
-  animation: float-up 9s 3s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
+  top: 115vh;
+  animation: float-up 8s 2s ease-in infinite, sway2 10s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(4) {
   background: #9f45d341;
   position: absolute;
-  left: 23vw;
-  bottom: -15vw;
+  left: calc(4 * 10vw);
   display: block;
-  width: 11vw;
-  height: 11vw;
+  width: 7vh;
+  height: 7vh;
   border-radius: 50%;
-  animation: float-up 8s 9s ease-in infinite, sway1 6s 0s ease-in-out alternate infinite;
+  top: 115vh;
+  animation: float-up 10s 2s ease-in infinite, sway2 8s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(5) {
   background: #9f45d341;
   position: absolute;
-  left: 98vw;
-  bottom: -15vw;
+  left: calc(5 * 10vw);
   display: block;
-  width: 7vw;
-  height: 7vw;
+  width: 14vh;
+  height: 14vh;
   border-radius: 50%;
-  animation: float-up 11s 4s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
+  top: 115vh;
+  animation: float-up 12s 5s ease-in infinite, sway2 6s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(6) {
   background: #9f45d341;
   position: absolute;
-  left: 83vw;
-  bottom: -15vw;
+  left: calc(6 * 10vw);
   display: block;
-  width: 5vw;
-  height: 5vw;
+  width: 8vh;
+  height: 8vh;
   border-radius: 50%;
-  animation: float-up 12s 9s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
+  top: 115vh;
+  animation: float-up 14s 8s ease-in infinite, sway2 6s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(7) {
   background: #9f45d341;
   position: absolute;
-  left: 23vw;
-  bottom: -15vw;
+  left: calc(7 * 10vw);
   display: block;
-  width: 14vw;
-  height: 14vw;
+  width: 11vh;
+  height: 11vh;
   border-radius: 50%;
-  animation: float-up 9s 4s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
+  top: 115vh;
+  animation: float-up 14s 7s ease-in infinite, sway1 7s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(8) {
   background: #9f45d341;
   position: absolute;
-  left: 60vw;
-  bottom: -15vw;
+  left: calc(8 * 10vw);
   display: block;
-  width: 6vw;
-  height: 6vw;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%;
-  animation: float-up 9s 10s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
+  top: 115vh;
+  animation: float-up 11s 6s ease-in infinite, sway1 7s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(9) {
   background: #9f45d341;
   position: absolute;
-  left: 81vw;
-  bottom: -15vw;
+  left: calc(9 * 10vw);
   display: block;
-  width: 8vw;
-  height: 8vw;
+  width: 14vh;
+  height: 14vh;
   border-radius: 50%;
-  animation: float-up 12s 6s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
+  top: 115vh;
+  animation: float-up 11s 6s ease-in infinite, sway1 7s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(10) {
   background: #9f45d341;
   position: absolute;
-  left: 32vw;
-  bottom: -15vw;
+  left: calc(10 * 10vw);
   display: block;
-  width: 15vw;
-  height: 15vw;
+  width: 13vh;
+  height: 13vh;
   border-radius: 50%;
-  animation: float-up 8s 2s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(11) {
-  background: #9f45d341;
-  position: absolute;
-  left: 9vw;
-  bottom: -15vw;
-  display: block;
-  width: 7vw;
-  height: 7vw;
-  border-radius: 50%;
-  animation: float-up 11s 5s ease-in infinite, sway1 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(12) {
-  background: #9f45d341;
-  position: absolute;
-  left: 22vw;
-  bottom: -15vw;
-  display: block;
-  width: 13vw;
-  height: 13vw;
-  border-radius: 50%;
-  animation: float-up 12s 0s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(13) {
-  background: #9f45d341;
-  position: absolute;
-  left: 65vw;
-  bottom: -15vw;
-  display: block;
-  width: 5vw;
-  height: 5vw;
-  border-radius: 50%;
-  animation: float-up 9s 3s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(14) {
-  background: #9f45d341;
-  position: absolute;
-  left: 40vw;
-  bottom: -15vw;
-  display: block;
-  width: 13vw;
-  height: 13vw;
-  border-radius: 50%;
-  animation: float-up 11s 7s ease-in infinite, sway2 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(15) {
-  background: #9f45d341;
-  position: absolute;
-  left: 77vw;
-  bottom: -15vw;
-  display: block;
-  width: 6vw;
-  height: 6vw;
-  border-radius: 50%;
-  animation: float-up 9s 8s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(16) {
-  background: #9f45d341;
-  position: absolute;
-  left: 81vw;
-  bottom: -15vw;
-  display: block;
-  width: 11vw;
-  height: 11vw;
-  border-radius: 50%;
-  animation: float-up 9s 3s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(17) {
-  background: #9f45d341;
-  position: absolute;
-  left: 31vw;
-  bottom: -15vw;
-  display: block;
-  width: 13vw;
-  height: 13vw;
-  border-radius: 50%;
-  animation: float-up 8s 9s ease-in infinite, sway1 6s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(18) {
-  background: #9f45d341;
-  position: absolute;
-  left: 8vw;
-  bottom: -15vw;
-  display: block;
-  width: 7vw;
-  height: 7vw;
-  border-radius: 50%;
-  animation: float-up 9s 4s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(19) {
-  background: #9f45d341;
-  position: absolute;
-  left: 44vw;
-  bottom: -15vw;
-  display: block;
-  width: 7vw;
-  height: 7vw;
-  border-radius: 50%;
-  animation: float-up 12s 5s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(20) {
-  background: #9f45d341;
-  position: absolute;
-  left: 15vw;
-  bottom: -15vw;
-  display: block;
-  width: 13vw;
-  height: 13vw;
-  border-radius: 50%;
-  animation: float-up 8s 6s ease-in infinite, sway2 6s 0s ease-in-out alternate infinite;
+  top: 115vh;
+  animation: float-up 11s 8s ease-in infinite, sway1 10s 0s ease-in-out alternate infinite;
 }
 
 @keyframes float-up {
   0% {
-    top: 120vh;
+    top: 115vh;
   }
   100% {
-    top: -20vh;
+    top: -15vh;
   }
 }
 @keyframes sway1 {
@@ -498,6 +378,10 @@ html, body {
   margin-left: 25%;
   margin-top: 15px;
 }
+.content .images .left button:hover, .content .images .right button:hover {
+  cursor: pointer;
+  font-weight: 500;
+}
 .content .card-container {
   width: 75%;
   display: flex;
@@ -590,6 +474,7 @@ html, body {
 }
 .content .card-container .card .bottom button:hover {
   cursor: pointer;
+  font-weight: 500;
 }
 .content .card-container .card:hover {
   box-shadow: 0 0 25px #949494;
