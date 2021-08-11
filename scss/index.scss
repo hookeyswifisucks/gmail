@@ -371,6 +371,78 @@ $sway-type: sway1, sway2;
         }
     }
     .faq {
+        width: 50%;
+        background-color: white;
+        border-radius: 16px;
+        text-align: center;
+        margin-left: 25%;
+        padding-top: 20px;
+        padding-bottom: 20px;
 
+        hr {
+            width: 70%;
+            border-color: $purple;
+        }
+        .header {
+            @include roboto($size: 40px, $weight: 600, $color: $purple);
+            display: block;
+        }
+        .q-container {
+            height: 100%;
+            transition: all 200ms ease-in;
+            display: block;
+            text-align: center;
+
+            img {
+                width: auto;
+                height: 34px;
+                display: inline-block;
+                transform: translateY(7px) rotate(180deg);
+                transition: all 200ms ease-in;
+            }
+            img:hover {
+                cursor: pointer;
+                transform: translateY(10px) rotate(180deg);
+            }
+            .flip {
+                transform: translateY(7px) rotate(0deg);
+            }
+            .flip:hover {
+                cursor: pointer;
+                transform: translateY(10px) rotate(0deg);
+            }
+            .subheader {
+                @include roboto($size: 32px, $weight: 500, $color: black);
+                display: inline-block;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-right: 1%;
+            }
+            .paragraph {
+                @include roboto($size: 28px, $weight: 400, $color: black);
+                margin-bottom: 20px;
+                transition: all 200ms ease-in;
+                display: none;
+                transform: translateY(-32px);
+                opacity: 0%;
+                width: 80%;
+                margin: auto;
+                margin-bottom: 25px;
+            }
+            @keyframes show-answer {
+                from {
+                    transform: translateY(-32px);
+                    opacity: 0%;
+                }
+                to {
+                    transform: translateY(0px);
+                    opacity: 100%;
+                }
+            }
+            .show-answer {
+                display: block;
+                animation: show-answer 500ms forwards;
+            }
+        }
     }
 }
