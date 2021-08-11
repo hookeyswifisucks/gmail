@@ -17,76 +17,208 @@ html, body {
 .bubble:nth-child(0) {
   background: rgba(182, 41, 182, 0.2);
   position: absolute;
-  left: 86vw;
+  left: 47vw;
   bottom: -75%;
   display: block;
-  width: 11vw;
-  height: 11vw;
+  width: 15vw;
+  height: 15vw;
   border-radius: 50%;
-  animation: float-up 12s 1s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
+  animation: float-up 9s 5s ease-in infinite, sway1 4s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(1) {
   background: rgba(182, 41, 182, 0.2);
   position: absolute;
-  left: 84vw;
+  left: 38vw;
   bottom: -75%;
   display: block;
-  width: 8vw;
-  height: 8vw;
+  width: 12vw;
+  height: 12vw;
   border-radius: 50%;
-  animation: float-up 11s 8s ease-in infinite, sway1 6s 0s ease-in-out alternate infinite;
+  animation: float-up 10s 8s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(2) {
   background: rgba(182, 41, 182, 0.2);
   position: absolute;
-  left: 62vw;
+  left: 10vw;
   bottom: -75%;
   display: block;
-  width: 12vw;
-  height: 12vw;
+  width: 9vw;
+  height: 9vw;
   border-radius: 50%;
-  animation: float-up 12s 9s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
+  animation: float-up 8s 8s ease-in infinite, sway1 4s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(3) {
   background: rgba(182, 41, 182, 0.2);
   position: absolute;
-  left: 11vw;
+  left: 51vw;
   bottom: -75%;
   display: block;
-  width: 12vw;
-  height: 12vw;
+  width: 15vw;
+  height: 15vw;
   border-radius: 50%;
-  animation: float-up 11s 5s ease-in infinite, sway1 6s 0s ease-in-out alternate infinite;
+  animation: float-up 12s 10s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(4) {
   background: rgba(182, 41, 182, 0.2);
   position: absolute;
-  left: 48vw;
+  left: 24vw;
   bottom: -75%;
   display: block;
-  width: 13vw;
-  height: 13vw;
+  width: 5vw;
+  height: 5vw;
   border-radius: 50%;
-  animation: float-up 9s 8s ease-in infinite, sway2 3s 0s ease-in-out alternate infinite;
+  animation: float-up 9s 1s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(5) {
   background: rgba(182, 41, 182, 0.2);
   position: absolute;
-  left: 18vw;
+  left: 42vw;
+  bottom: -75%;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  animation: float-up 10s 3s ease-in infinite, sway1 4s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(6) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 100vw;
+  bottom: -75%;
+  display: block;
+  width: 11vw;
+  height: 11vw;
+  border-radius: 50%;
+  animation: float-up 12s 4s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(7) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 74vw;
+  bottom: -75%;
+  display: block;
+  width: 11vw;
+  height: 11vw;
+  border-radius: 50%;
+  animation: float-up 8s 7s ease-in infinite, sway2 3s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(8) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 99vw;
+  bottom: -75%;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  animation: float-up 10s 8s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(9) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 79vw;
+  bottom: -75%;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  animation: float-up 11s 8s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(10) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 59vw;
   bottom: -75%;
   display: block;
   width: 12vw;
   height: 12vw;
   border-radius: 50%;
-  animation: float-up 8s 7s ease-in infinite, sway2 6s 0s ease-in-out alternate infinite;
+  animation: float-up 9s 4s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
 }
 
-.bubble:nth-child(6) {
+.bubble:nth-child(11) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 2vw;
+  bottom: -75%;
+  display: block;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 50%;
+  animation: float-up 12s 6s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(12) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 51vw;
+  bottom: -75%;
+  display: block;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  animation: float-up 9s 5s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(13) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 94vw;
+  bottom: -75%;
+  display: block;
+  width: 11vw;
+  height: 11vw;
+  border-radius: 50%;
+  animation: float-up 11s 2s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(14) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 45vw;
+  bottom: -75%;
+  display: block;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  animation: float-up 12s 6s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(15) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 16vw;
+  bottom: -75%;
+  display: block;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  animation: float-up 10s 4s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(16) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 60vw;
+  bottom: -75%;
+  display: block;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 50%;
+  animation: float-up 8s 1s ease-in infinite, sway1 6s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(17) {
   background: rgba(182, 41, 182, 0.2);
   position: absolute;
   left: 46vw;
@@ -95,175 +227,43 @@ html, body {
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
-  animation: float-up 9s 5s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(7) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 62vw;
-  bottom: -75%;
-  display: block;
-  width: 7vw;
-  height: 7vw;
-  border-radius: 50%;
-  animation: float-up 10s 3s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(8) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 32vw;
-  bottom: -75%;
-  display: block;
-  width: 11vw;
-  height: 11vw;
-  border-radius: 50%;
-  animation: float-up 9s 10s ease-in infinite, sway2 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(9) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 72vw;
-  bottom: -75%;
-  display: block;
-  width: 12vw;
-  height: 12vw;
-  border-radius: 50%;
-  animation: float-up 11s 5s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(10) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 23vw;
-  bottom: -75%;
-  display: block;
-  width: 6vw;
-  height: 6vw;
-  border-radius: 50%;
-  animation: float-up 10s 8s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(11) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 37vw;
-  bottom: -75%;
-  display: block;
-  width: 15vw;
-  height: 15vw;
-  border-radius: 50%;
-  animation: float-up 12s 5s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(12) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 41vw;
-  bottom: -75%;
-  display: block;
-  width: 6vw;
-  height: 6vw;
-  border-radius: 50%;
-  animation: float-up 11s 6s ease-in infinite, sway1 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(13) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 58vw;
-  bottom: -75%;
-  display: block;
-  width: 7vw;
-  height: 7vw;
-  border-radius: 50%;
-  animation: float-up 8s 10s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(14) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 1vw;
-  bottom: -75%;
-  display: block;
-  width: 12vw;
-  height: 12vw;
-  border-radius: 50%;
-  animation: float-up 11s 7s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(15) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 1vw;
-  bottom: -75%;
-  display: block;
-  width: 7vw;
-  height: 7vw;
-  border-radius: 50%;
-  animation: float-up 10s 7s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(16) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 22vw;
-  bottom: -75%;
-  display: block;
-  width: 8vw;
-  height: 8vw;
-  border-radius: 50%;
-  animation: float-up 10s 3s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(17) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 73vw;
-  bottom: -75%;
-  display: block;
-  width: 6vw;
-  height: 6vw;
-  border-radius: 50%;
-  animation: float-up 9s 9s ease-in infinite, sway1 4s 0s ease-in-out alternate infinite;
+  animation: float-up 11s 6s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(18) {
   background: rgba(182, 41, 182, 0.2);
   position: absolute;
-  left: 24vw;
+  left: 64vw;
   bottom: -75%;
   display: block;
-  width: 15vw;
-  height: 15vw;
+  width: 5vw;
+  height: 5vw;
   border-radius: 50%;
-  animation: float-up 9s 1s ease-in infinite, sway1 4s 0s ease-in-out alternate infinite;
+  animation: float-up 12s 1s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(19) {
   background: rgba(182, 41, 182, 0.2);
   position: absolute;
-  left: 60vw;
-  bottom: -75%;
-  display: block;
-  width: 9vw;
-  height: 9vw;
-  border-radius: 50%;
-  animation: float-up 10s 1s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(20) {
-  background: rgba(182, 41, 182, 0.2);
-  position: absolute;
-  left: 52vw;
+  left: 82vw;
   bottom: -75%;
   display: block;
   width: 7vw;
   height: 7vw;
   border-radius: 50%;
-  animation: float-up 10s 4s ease-in infinite, sway1 4s 0s ease-in-out alternate infinite;
+  animation: float-up 12s 5s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(20) {
+  background: rgba(182, 41, 182, 0.2);
+  position: absolute;
+  left: 54vw;
+  bottom: -75%;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  animation: float-up 9s 8s ease-in infinite, sway2 6s 0s ease-in-out alternate infinite;
 }
 
 @keyframes float-up {
@@ -307,11 +307,14 @@ html, body {
 }
 .navbar .left {
   width: 20%;
-  height: 70px;
+  height: 76px;
   margin-left: 5%;
-  margin-top: 5px;
-  background-color: white;
+  margin-top: 2px;
   float: left;
+}
+.navbar .left img {
+  width: auto;
+  height: 76px;
 }
 .navbar .center {
   width: 25%;
