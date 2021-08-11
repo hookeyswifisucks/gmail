@@ -27,244 +27,64 @@ html, body {
 .bubble:nth-child(0) {
   background: #9f45d341;
   position: absolute;
-  left: 48vw;
+  left: 55vw;
   bottom: -15vw;
   display: block;
-  width: 13vw;
-  height: 13vw;
+  width: 15vw;
+  height: 15vw;
   border-radius: 50%;
-  animation: float-up 11s 1s ease-in infinite, sway2 3s 0s ease-in-out alternate infinite;
+  animation: float-up 8s 7s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(1) {
   background: #9f45d341;
   position: absolute;
-  left: 97vw;
+  left: 52vw;
   bottom: -15vw;
   display: block;
-  width: 11vw;
-  height: 11vw;
+  width: 12vw;
+  height: 12vw;
   border-radius: 50%;
-  animation: float-up 12s 8s ease-in infinite, sway1 6s 0s ease-in-out alternate infinite;
+  animation: float-up 9s 10s ease-in infinite, sway2 3s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(2) {
   background: #9f45d341;
   position: absolute;
-  left: 48vw;
+  left: 40vw;
   bottom: -15vw;
   display: block;
-  width: 10vw;
-  height: 10vw;
+  width: 14vw;
+  height: 14vw;
   border-radius: 50%;
-  animation: float-up 9s 2s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
+  animation: float-up 10s 0s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(3) {
   background: #9f45d341;
   position: absolute;
-  left: 47vw;
+  left: 99vw;
   bottom: -15vw;
   display: block;
   width: 14vw;
   height: 14vw;
   border-radius: 50%;
-  animation: float-up 12s 1s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
+  animation: float-up 9s 3s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
 }
 
 .bubble:nth-child(4) {
   background: #9f45d341;
   position: absolute;
-  left: 3vw;
-  bottom: -15vw;
-  display: block;
-  width: 7vw;
-  height: 7vw;
-  border-radius: 50%;
-  animation: float-up 10s 8s ease-in infinite, sway2 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(5) {
-  background: #9f45d341;
-  position: absolute;
-  left: 7vw;
-  bottom: -15vw;
-  display: block;
-  width: 8vw;
-  height: 8vw;
-  border-radius: 50%;
-  animation: float-up 8s 10s ease-in infinite, sway2 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(6) {
-  background: #9f45d341;
-  position: absolute;
-  left: 0vw;
-  bottom: -15vw;
-  display: block;
-  width: 9vw;
-  height: 9vw;
-  border-radius: 50%;
-  animation: float-up 11s 9s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(7) {
-  background: #9f45d341;
-  position: absolute;
-  left: 7vw;
-  bottom: -15vw;
-  display: block;
-  width: 12vw;
-  height: 12vw;
-  border-radius: 50%;
-  animation: float-up 11s 5s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(8) {
-  background: #9f45d341;
-  position: absolute;
-  left: 14vw;
-  bottom: -15vw;
-  display: block;
-  width: 14vw;
-  height: 14vw;
-  border-radius: 50%;
-  animation: float-up 11s 4s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(9) {
-  background: #9f45d341;
-  position: absolute;
-  left: 89vw;
-  bottom: -15vw;
-  display: block;
-  width: 6vw;
-  height: 6vw;
-  border-radius: 50%;
-  animation: float-up 8s 2s ease-in infinite, sway2 6s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(10) {
-  background: #9f45d341;
-  position: absolute;
-  left: 2vw;
-  bottom: -15vw;
-  display: block;
-  width: 9vw;
-  height: 9vw;
-  border-radius: 50%;
-  animation: float-up 11s 9s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(11) {
-  background: #9f45d341;
-  position: absolute;
-  left: 53vw;
+  left: 23vw;
   bottom: -15vw;
   display: block;
   width: 11vw;
   height: 11vw;
   border-radius: 50%;
-  animation: float-up 12s 1s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
+  animation: float-up 8s 9s ease-in infinite, sway1 6s 0s ease-in-out alternate infinite;
 }
 
-.bubble:nth-child(12) {
-  background: #9f45d341;
-  position: absolute;
-  left: 32vw;
-  bottom: -15vw;
-  display: block;
-  width: 6vw;
-  height: 6vw;
-  border-radius: 50%;
-  animation: float-up 10s 7s ease-in infinite, sway1 6s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(13) {
-  background: #9f45d341;
-  position: absolute;
-  left: 64vw;
-  bottom: -15vw;
-  display: block;
-  width: 6vw;
-  height: 6vw;
-  border-radius: 50%;
-  animation: float-up 12s 10s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(14) {
-  background: #9f45d341;
-  position: absolute;
-  left: 40vw;
-  bottom: -15vw;
-  display: block;
-  width: 7vw;
-  height: 7vw;
-  border-radius: 50%;
-  animation: float-up 11s 2s ease-in infinite, sway2 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(15) {
-  background: #9f45d341;
-  position: absolute;
-  left: 95vw;
-  bottom: -15vw;
-  display: block;
-  width: 12vw;
-  height: 12vw;
-  border-radius: 50%;
-  animation: float-up 10s 3s ease-in infinite, sway1 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(16) {
-  background: #9f45d341;
-  position: absolute;
-  left: 60vw;
-  bottom: -15vw;
-  display: block;
-  width: 6vw;
-  height: 6vw;
-  border-radius: 50%;
-  animation: float-up 8s 2s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(17) {
-  background: #9f45d341;
-  position: absolute;
-  left: 64vw;
-  bottom: -15vw;
-  display: block;
-  width: 7vw;
-  height: 7vw;
-  border-radius: 50%;
-  animation: float-up 8s 0s ease-in infinite, sway1 4s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(18) {
-  background: #9f45d341;
-  position: absolute;
-  left: 7vw;
-  bottom: -15vw;
-  display: block;
-  width: 6vw;
-  height: 6vw;
-  border-radius: 50%;
-  animation: float-up 9s 6s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(19) {
-  background: #9f45d341;
-  position: absolute;
-  left: 49vw;
-  bottom: -15vw;
-  display: block;
-  width: 10vw;
-  height: 10vw;
-  border-radius: 50%;
-  animation: float-up 9s 6s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
-}
-
-.bubble:nth-child(20) {
+.bubble:nth-child(5) {
   background: #9f45d341;
   position: absolute;
   left: 98vw;
@@ -273,7 +93,187 @@ html, body {
   width: 7vw;
   height: 7vw;
   border-radius: 50%;
+  animation: float-up 11s 4s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(6) {
+  background: #9f45d341;
+  position: absolute;
+  left: 83vw;
+  bottom: -15vw;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  animation: float-up 12s 9s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(7) {
+  background: #9f45d341;
+  position: absolute;
+  left: 23vw;
+  bottom: -15vw;
+  display: block;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 50%;
+  animation: float-up 9s 4s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(8) {
+  background: #9f45d341;
+  position: absolute;
+  left: 60vw;
+  bottom: -15vw;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  animation: float-up 9s 10s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(9) {
+  background: #9f45d341;
+  position: absolute;
+  left: 81vw;
+  bottom: -15vw;
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  animation: float-up 12s 6s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(10) {
+  background: #9f45d341;
+  position: absolute;
+  left: 32vw;
+  bottom: -15vw;
+  display: block;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
   animation: float-up 8s 2s ease-in infinite, sway2 5s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(11) {
+  background: #9f45d341;
+  position: absolute;
+  left: 9vw;
+  bottom: -15vw;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  animation: float-up 11s 5s ease-in infinite, sway1 4s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(12) {
+  background: #9f45d341;
+  position: absolute;
+  left: 22vw;
+  bottom: -15vw;
+  display: block;
+  width: 13vw;
+  height: 13vw;
+  border-radius: 50%;
+  animation: float-up 12s 0s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(13) {
+  background: #9f45d341;
+  position: absolute;
+  left: 65vw;
+  bottom: -15vw;
+  display: block;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  animation: float-up 9s 3s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(14) {
+  background: #9f45d341;
+  position: absolute;
+  left: 40vw;
+  bottom: -15vw;
+  display: block;
+  width: 13vw;
+  height: 13vw;
+  border-radius: 50%;
+  animation: float-up 11s 7s ease-in infinite, sway2 3s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(15) {
+  background: #9f45d341;
+  position: absolute;
+  left: 77vw;
+  bottom: -15vw;
+  display: block;
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  animation: float-up 9s 8s ease-in infinite, sway2 4s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(16) {
+  background: #9f45d341;
+  position: absolute;
+  left: 81vw;
+  bottom: -15vw;
+  display: block;
+  width: 11vw;
+  height: 11vw;
+  border-radius: 50%;
+  animation: float-up 9s 3s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(17) {
+  background: #9f45d341;
+  position: absolute;
+  left: 31vw;
+  bottom: -15vw;
+  display: block;
+  width: 13vw;
+  height: 13vw;
+  border-radius: 50%;
+  animation: float-up 8s 9s ease-in infinite, sway1 6s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(18) {
+  background: #9f45d341;
+  position: absolute;
+  left: 8vw;
+  bottom: -15vw;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  animation: float-up 9s 4s ease-in infinite, sway1 3s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(19) {
+  background: #9f45d341;
+  position: absolute;
+  left: 44vw;
+  bottom: -15vw;
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  animation: float-up 12s 5s ease-in infinite, sway1 5s 0s ease-in-out alternate infinite;
+}
+
+.bubble:nth-child(20) {
+  background: #9f45d341;
+  position: absolute;
+  left: 15vw;
+  bottom: -15vw;
+  display: block;
+  width: 13vw;
+  height: 13vw;
+  border-radius: 50%;
+  animation: float-up 8s 6s ease-in infinite, sway2 6s 0s ease-in-out alternate infinite;
 }
 
 @keyframes float-up {
@@ -448,16 +448,16 @@ html, body {
   }
 }
 .content .landing .scroll-indicator .circle:nth-child(0) {
-  animation: blink 1s calc((0 - 1) * 300ms) infinite;
+  animation: blink 1s calc((0 - 1) * 250ms) infinite;
 }
 .content .landing .scroll-indicator .circle:nth-child(1) {
-  animation: blink 1s calc((1 - 1) * 300ms) infinite;
+  animation: blink 1s calc((1 - 1) * 250ms) infinite;
 }
 .content .landing .scroll-indicator .circle:nth-child(2) {
-  animation: blink 1s calc((2 - 1) * 300ms) infinite;
+  animation: blink 1s calc((2 - 1) * 250ms) infinite;
 }
 .content .landing .scroll-indicator .circle:nth-child(3) {
-  animation: blink 1s calc((3 - 1) * 300ms) infinite;
+  animation: blink 1s calc((3 - 1) * 250ms) infinite;
 }
 .content .images {
   width: 60%;
