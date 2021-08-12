@@ -330,10 +330,6 @@ $sway-type: sway1, sway2;
                         @include roboto($size: 20px, $weight: 400, $color: black, $height: 1.2);
                         display: block;
                         margin-top: 15px;
-
-                        br {
-                            height: 10px;
-                        }
                     }
                 }
             }
@@ -375,7 +371,7 @@ $sway-type: sway1, sway2;
         padding-top: 20px;
         padding-bottom: 20px;
 
-        #support {
+        #faq {
             position: absolute;
             transform: translateY(-125px);
         }
