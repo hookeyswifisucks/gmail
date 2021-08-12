@@ -384,10 +384,11 @@ $sway-type: sway1, sway2;
             display: block;
         }
         .q-container {
-            height: 100%;
             transition: all 200ms ease-in;
             display: block;
             text-align: center;
+            width: 90%;
+            margin: auto;
 
             img {
                 width: auto;
